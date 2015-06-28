@@ -31,3 +31,6 @@ idx.add({
     "author": "Me",
     "id": 2
 });
+
+var result = idx.search('love')[0];
+alert(result.ref + " score " + result.score);
