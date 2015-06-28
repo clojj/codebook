@@ -20,6 +20,17 @@
 
   <div>Angular seed app: v<span app-version></span></div>
 
+  <script type="text/ng-template" id="view1.html">
+      <p>THIS IS THE PARTIAL FOR VIEW 1.</p>
+  </script>
+  <script type="text/ng-template" id="view2.html">
+      <p>THIS IS THE PARTIAL FOR VIEW 2.</p>
+      <p>
+          Showing of 'interpolate' filter:
+          {{ 'Current version is v%VERSION%.' | interpolate }}
+      </p>
+  </script>
+
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
